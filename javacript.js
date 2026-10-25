@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.key === "Escape") setMenu(false);
     });
 
-    const parentLink = nav.querySelector("hasSubnav");
+    const parentLink = nav.querySelector(".hasSubnav");
     if (parentLink) {
         parentLink.addEventListener("click", (e) => {
             if (!isMobile.matches) return;
