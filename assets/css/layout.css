@@ -45,11 +45,11 @@
     box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.2);
 }
 
-.navbar-item--sub {
+.navbar-item {
     position: relative;
 }
 
-.navbar-item--sub:hover .subnav {
+.navbar-item:hover .subnav {
     display: block;
 }
 
